@@ -128,18 +128,19 @@ text-align: justify;
     size: 4px;
 }
 .Contact {
-    background-image: url("/Images/s_image.jpg");
+    background-image: url("/Images/c_image.jpg");
     height: 100vh;
     text-align: center;
     color: white;
     text-emphasis: none;
 
 }
-.form.group {
-    width: 100%;
+section{
+    text-align: center;
     font-size: 15px;
     border:whitesmoke;
     padding: auto;
+    background-image: url("/Images/c_image.jpg");
     
 }
 .status {
