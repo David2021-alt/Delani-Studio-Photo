@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Nav-links {
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    justify-content: stretch;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    
+    
+
+}
+header {
+    flex: 1;
+    background-image: url("Images/h_img.jpg");
+
+}
+.Logo-container {
+    flex: auto;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.Logo-container, .Nav-links, .header {
+    flex: auto;
+    font-style: normal;
+    
+
+}
+
+.Logo-container:hover {
+    background-color: 
+    
+}
+.Nav-links:hover {
+    /* background-color: black; */
+    flex: none;
+    text-align: center;
+
+}
+
+.Logo-Image {
+    text-align: center;
+    
+    
+}
+.Intro {
+    text-align: center;
+    color: white;
+
+}
+
+.Mouse-icon {
+    text-align: center;
+}
+.container {
+    text-align: center;
+    text-size-adjust: 16px;
+}
+
+.about {
+    color: rgb(255, 71, 71);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Services {
+    text-align: center;
+    background-image: url("/Images/s_image.jpg");
+    color: white;
+    height: 50vh;
+    justify-content: center;
+    
+
+
+}
+.what-we-do {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+    font-style: normal;
+
+}
+.image-1 {
+    text-align: justify;
+
+}
+.image-2 {
+    text-align: center;
+}
+.image-3 {
+    text-align: right;
+    align-content: flex-end;
+    
+}
+.Portfolio {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 50px;
+    background-position-y: 0ch;
+    image-orientation: from-image;
+    text-size-adjust: 10px;
+    background-color: khaki;
+}
+.portfolio:hover {
+    background-color: slategrey;
+    cursor: pointer;
+
+}
+.work.images {
+text-align: justify;
+    size: 4px;
+}
+.Contact {
+    background-image: url("/Images/s_image.jpg");
+    height: 100vh;
+    text-align: center;
+    color: white;
+    text-emphasis: none;
+
+}
+.form.group {
+    width: 100%;
+    font-size: 15px;
+    border:whitesmoke;
+    padding: auto;
+    
+}
+.status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 1px;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+.status.success {
+    /* color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px; */
+}
+#Status.success {
+    background-color: springgreen;
+
+}
+#Status.Success {
+    background-color: rgb(4, 122, 63);
+    animation: status 4s ease delay forwads;
+    -webkit-animation: status 4s ease delay forwads;
+}
+/* #status.error {
+background-color: red; */
+
+
+@keyframes status{
+    0%{
+        opacity: 1;
+    pointer-events: all;
+    }
+    90%{
+        opacity: 0;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    
+}
+li {
+    list-style: none;
+    margin: 10px 30;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 5s;
+    
+    
+}
+li:hover {
+    color: gray;
+    
+    transition: .5s;
+}
+.footer {
+text-align: center;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.First.image {
+    align-items: center;
+    text-align: justify;
+    mask-position: center;
+}
+.Design-Icons {
+    flex: content;
+    align-self: center;
+    align-items: center;
+}
