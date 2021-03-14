@@ -221,8 +221,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     mask-position: center;
 }
-.Design-Icons {
-    flex: content;
+.Design-Icons{
+    float: center;
     align-self: center;
     align-items: center;
+    padding-inline-end: 50px;
 }
