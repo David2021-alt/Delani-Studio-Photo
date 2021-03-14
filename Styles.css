@@ -121,7 +121,16 @@ header {
 .portfolio:hover {
     background-color: slategrey;
     cursor: pointer;
-
+    transform: 2s;
+    -webkit-transform: 2s;
+    -moz-transform: 2s;
+    -ms-transform: 2s;
+    -o-transform: 2s;
+    transition: 1.05s;
+    -webkit-transition: 1.05s;
+    -moz-transition: 1.05s;
+    -ms-transition: 1.05s;
+    -o-transition: 1.05s;
 }
 .work.images {
 text-align: justify;
@@ -226,4 +235,20 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-self: center;
     align-items: center;
     padding-inline-end: 50px;
+}
+.footer{
+    text-align: center;
+
+}
+.topbar-col {
+    display: inline;
+    padding-left: 2%;
+    float: right;
+    background-color: beige;
+}
+.social-links{
+    float: right;
+    display: flex;
+    height: 10px;
+    justify-content: right;
 }
