@@ -1,6 +1,6 @@
 # Delani Photo Studio
 
-[David Muoki-Team Member](https://github.com/David2021-alt)
+[David Muoki](https://github.com/David2021-alt)
 # Author
 The author of this website is David Muoki, David Muoki has the most sophisticated technical skills especially in the development of website softwares.
 
