@@ -15,7 +15,7 @@ The vision of this platform is to impact more that a million lives through makin
 
 
 ## Live site
-https://github.com/David2021-alt/Delani-Studio
+https://github.com/David2021-alt/Delani-Studio-Photo
  
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
